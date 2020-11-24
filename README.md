@@ -10,7 +10,7 @@ Write the answers to the questions in a new markdown file called answers.md. Ple
 
 ### Data
 
-You will need the following data sets which can be downloaded [here]() 
+You will need the following data sets which can be downloaded [here](https://heibox.uni-heidelberg.de/d/df1d75530f7b45c8a92a/?dl=1):
 
 * [Global Human Settlement Layer: Population](https://ghsl.jrc.ec.europa.eu/ghs_pop2019.php) (GHS\_POP\_E2015\_GLOBE\_R2019A\_54009\_250\_V1\_0\_18\_3.tif)
 * GDAM Administrative districts of Germany (gadm28\_adm2\_germany.shp)
@@ -54,7 +54,7 @@ In order to calculate zonal statistics in GRASS GIS, the districts need to be in
 
 Use the tool `r.stats.zonal` to calculate the total population of each district. The Global Human Settlement Layer contains the number of people living in each cell. Choose the aggregation method accordingly. 
 
-####3.4. Evaluate the population estimate 
+#### 3.4. Evaluate the population estimate 
 
 Use the "Query raster/vector maps" tool in the top menu of the Map Display window and click on the districts in the map to get the calculated population numbers of each one. How good is the population estimate of the Global Human Settlement Layer compared to official data?   
 
