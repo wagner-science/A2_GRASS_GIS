@@ -2,6 +2,11 @@
 
 **Submission deadline is Friday, December 11 2020 through GitHub Classroom.**
 
+**Documents to hand in:**
+
+* Markdown file answers.md for exercises 1 - 4
+* Python file for exercise 5
+
 In this assignment you will use the program GRASS GIS to conduct a geospatial analysis using raster and vector data. 
 
 This is a **group assignment** in which you are supposed to solve these exercises in pairs of two students. Material and submission will be handled through GitHub Classroom. 
@@ -10,7 +15,7 @@ Write the answers to the questions in a new markdown file called answers.md. Ple
 
 ### Data
 
-You will need the following data sets which can be downloaded [here](https://heibox.uni-heidelberg.de/d/df1d75530f7b45c8a92a/?dl=1):
+All data for the assignment is stored in the repository in the folder "data":
 
 * [Global Human Settlement Layer: Population](https://ghsl.jrc.ec.europa.eu/ghs_pop2019.php) (GHS\_POP\_E2015\_GLOBE\_R2019A\_54009\_250\_V1\_0\_18\_3.tif)
 * GDAM Administrative districts of Germany (gadm28\_adm2\_germany.shp)
